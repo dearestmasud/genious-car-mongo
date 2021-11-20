@@ -60,7 +60,7 @@ main().catch(console.dir);
 
 
 app.get('/',(req,res)=>{
-    res.send('server home page');
+    res.send('geni server home page');
 });
 app.listen(port,()=>{
     console.log('server running on ',port);
